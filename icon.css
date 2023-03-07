@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:800px;
+    margin: 50px auto;
+    background-color:rgb(232, 229, 229)
+    ;
+}
+
+.social ul li{
+    display: inline;
+    margin: 0px 50px;
+    
+}
+
+.social ul li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: #fff;
+   position: relative;
+}
+
+.social ul li a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+}
+
+
+
+
+
+.social ul li .fa-facebook-f{
+    color:blue
+}
+.social ul li .fa-twitter{ 
+    color:rgb(34, 159, 241);
+}
+
+.social ul li .fa-google{
+   
+    color: red;
+
+}
+
+.social ul li .fa-pinterest{
+    
+    color: red;
+
+}
+
+.social ul li .fa-skype{
+   
+    color: rgb(34, 159, 241);
+
+}

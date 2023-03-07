@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    margin: 60px auto;
+    background-color: orange;
+}
+
+.social ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.social ul li a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+   position: relative;
+}
+
+.social ul li a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(58, 69, 194);
+}
+
+.social ul li .whatsapp{
+    border:2px solid;
+    border-color:green;
+    color: rgb(238, 238, 238);
+   
+
+}
+
+.social ul li .youtube{
+    border:2px solid;
+    border-color:red;
+    color: white;
+
+}
+
+.social ul li .google{
+    border:2px solid;
+    border-color:blue;
+    color: white;
+
+}
+
+.social ul li .linkedin{
+    border:2px solid;
+    border-color: rgb(32, 149, 227);
+    color: rgb(0, 114, 191);
+
+}
+
+.social ul li .tiktok{
+    border:2px solid;
+    border-color: white;
+    color: black;
+
+}
+
+.social ul li .fa-whatsapp-f{
+    color:blue
+}
+.social ul li .fa-youtube{ 
+    color:rgb(34, 159, 241);
+}
+
+.social ul li .fa-google{
+   
+    color: red;
+
+}
+
+.social ul li .fa-linkedin{
+    
+    color: rgb(0, 114, 191);
+
+}
+
+.social ul li .fa-tiktok{
+   
+    color: rgb(34, 159, 241);
+
+}
